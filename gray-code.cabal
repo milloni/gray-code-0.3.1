@@ -69,7 +69,7 @@ Library
 
   -- Packages needed in order to build this package.
   Build-depends:
-     base >= 4.7 && < 5
+     base >= 4.7 && < 5, QuickCheck >= 2
 
   -- Modules not exported by this package.
   -- Other-modules:
