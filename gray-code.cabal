@@ -69,15 +69,10 @@ Library
 
   -- Packages needed in order to build this package.
   Build-depends:
-     base >= 4.7 && < 5, QuickCheck >= 2
+     base >= 4.7 && < 5
 
   -- Modules not exported by this package.
   -- Other-modules:
 
   -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
   -- Build-tools:
-
-Test-Suite test-qc
-    type:       exitcode-stdio-1.0
-    main-is:    test.hs
-    build-depends: base, QuickCheck >= 2
